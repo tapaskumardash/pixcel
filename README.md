@@ -1,7 +1,7 @@
 # Pixcel - Free Stock Image Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-v18.2.0-blue.svg)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-v18.3.0-blue.svg)](https://reactjs.org/)
 [![Unsplash API](https://img.shields.io/badge/Unsplash-API-brightgreen.svg)](https://unsplash.com/developers)
 
 Pixcel is a free, open-source platform that allows users to search, browse, and download high-quality stock images. Built with React JS and powered by the Unsplash API, Pixcel aims to be the go-to destination for designers, developers, content creators, and anyone in need of beautiful visuals.
