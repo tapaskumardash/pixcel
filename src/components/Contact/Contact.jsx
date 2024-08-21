@@ -21,7 +21,7 @@ const Contact = (props) => {
           <p>Email: <a href="mailto:tapasreeve@gmail.com">tapasreeve@gmail.com</a></p>
 
           <h2>Stay Connected</h2>
-          <p>Stay up-to-date with the latest updates, features, and community contributions by following our project on <a href="/">GitHub</a>.</p>
+          <p>Stay up-to-date with the latest updates, features, and community contributions by following our project on <a href="https://github.com/tapaskumardash/pixcel">GitHub</a>.</p>
         </div>
       </div>
     </>

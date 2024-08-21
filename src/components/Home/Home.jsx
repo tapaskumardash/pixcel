@@ -78,12 +78,12 @@ const Home = (props) => {
             {
               photos.map((photo) => {
                 return (
-                  <ImageCard key={photo.id} imageUrl={photo.urls.small} fullSizeImage={photo.urls.full} downloadProgress={setDownloadProgressMsg} />
+                  <ImageCard key={photo.id} imageUrl={photo.urls.small} slug={photo.slug} fullSizeImage={photo.urls.full} downloadProgress={setDownloadProgressMsg} />
                 )
               })
             }
           </div>
-          
+          {/* Make something if the search result is empty: eg. startlink */}
           <div ref={downloadProgressMsgContainer} className="image-download-progress-container">
             <i className='bx bx-loader-alt'></i>
             <span>Downloading image....</span>

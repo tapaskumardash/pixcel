@@ -9,7 +9,7 @@ const Footer = (props) => {
           <span>{props.company}</span>
         </div>
         <p>Discover a vast collection of free, high-quality stock images for personal and commercial use on Pixcel.</p>
-        <a href="/"><i className='bx bxl-github'></i></a>
+        <a href="https://github.com/tapaskumardash/pixcel"><i className='bx bxl-github'></i></a>
       </div>
       <div className="copyright-container">
         <span>Copyright © Pixcel {new Date().getFullYear()} • Developed by <a href="/">Tapas</a></span>

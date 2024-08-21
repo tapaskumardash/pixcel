@@ -16,7 +16,7 @@ const ImageCard = (props) => {
   return (
     <div className="image-card">
       <img src={props.imageUrl} alt="thumnail" />
-      <button onClick={() => triggerDownload(props.fullSizeImage, "wallpaper.jpg")}><i className='bx bxs-download'></i></button>
+      <button onClick={() => triggerDownload(props.fullSizeImage, props.slug)}><i className='bx bxs-download'></i></button>
     </div>
   )
 }

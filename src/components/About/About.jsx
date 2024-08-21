@@ -19,7 +19,7 @@ const About = (props) => {
           <p>Pixcel is a React JS-based web application that leverages the Unsplash API to offer a seamless experience for browsing and downloading top-notch stock images. With Pixcel, you can easily search for any kind of image, explore popular categories, and download them in high resolution, all in just a click.</p>
 
           <h2>Why Pixcel?</h2>
-          <p>In the ever-growing world of digital content, having access to high-quality visuals is essential. Pixcel was created to provide an easy-to-use, efficient, and open-source platform where users can find exactly the images they need without any hassle. We believe in the power of open-source development and community collaboration, which is why Pixcel is fully open-source. You can check out the source code on <a href="/">GitHub</a>, contribute to the project, or even use it as a foundation for your own projects.</p>
+          <p>In the ever-growing world of digital content, having access to high-quality visuals is essential. Pixcel was created to provide an easy-to-use, efficient, and open-source platform where users can find exactly the images they need without any hassle. We believe in the power of open-source development and community collaboration, which is why Pixcel is fully open-source. You can check out the source code on <a href="https://github.com/tapaskumardash/pixcel">GitHub</a>, contribute to the project, or even use it as a foundation for your own projects.</p>
 
           <h2>Key Features:</h2>
           <ul>
@@ -30,7 +30,7 @@ const About = (props) => {
           </ul>
 
           <h2>Join the Community</h2>
-          <p>We're excited to see how you use Pixcel and what you build with it! Whether you're downloading images or contributing to the project, you're a part of our growing community. Check out the <a href="/">GitHub repository</a> to explore the source code, report issues, or contribute your own improvements.</p>
+          <p>We're excited to see how you use Pixcel and what you build with it! Whether you're downloading images or contributing to the project, you're a part of our growing community. Check out the <a href="https://github.com/tapaskumardash/pixcel">GitHub repository</a> to explore the source code, report issues, or contribute your own improvements.</p>
         </div>
       </div>
     </>
