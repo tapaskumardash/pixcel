@@ -23,6 +23,10 @@ Pixcel is a React JS-based web application that leverages the Unsplash API to of
 
 In a digital age, having access to high-quality visuals is crucial. Pixcel was created to provide an easy-to-use, efficient, and open-source platform where users can find exactly the images they need without any hassle. We believe in the power of community and open-source development, which is why Pixcel is available for anyone to use and contribute to.
 
+## 🌟 Continuous Improvement
+
+We are dedicated to making Pixcel better day by day. Our team is constantly working on adding new features, improving existing ones, and ensuring the platform evolves with the needs of its users. Stay tuned for exciting updates, and feel free to suggest features or improvements that you'd like to see!
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
