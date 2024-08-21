@@ -83,7 +83,7 @@ const Home = (props) => {
               })
             }
           </div>
-          {/* Make something if the search result is empty: eg. startlink */}
+          
           <div ref={downloadProgressMsgContainer} className="image-download-progress-container">
             <i className='bx bx-loader-alt'></i>
             <span>Downloading image....</span>
