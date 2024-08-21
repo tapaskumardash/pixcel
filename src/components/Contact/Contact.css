@@ -1,0 +1,28 @@
+.contact-content{
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-content h1,
+.contact-content h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-content p{
+  color: #252525;
+}
+
+.contact-content p a{
+  color: var(--asset-dark);
+  font-weight: 500;
+}
+
+@media (max-width: 940px){
+  .contact-content{
+    width: 100%;
+  }
+}

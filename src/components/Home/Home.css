@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+}
+
+.loader-container {
+  width: 100%;
+  text-align: center;
+}
+
+.loader-container img {
+  width: 70px;
+}
+
+.error-container {
+  margin-top: 42px;
+  width: 100%;
+  text-align: center;
+}
+
+.error-container span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #ffdede;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 2px solid #ffa1a1;
+  font-weight: 500;
+}
+
+.error-container span i {
+  font-size: 24px;
+}
+
+.image-container {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  padding-bottom: 20px;
+}
+
+.image-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.image-card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.image-download-progress-container {
+  position: fixed;
+  left: -100%;
+  bottom: 20px;
+  background-color: #000;
+  border-radius: 40px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.4s;
+}
+
+.image-download-progress-container i {
+  font-size: 24px;
+  color: var(--asset-color);
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0def)
+  }
+
+  100% {
+    transform: rotate(365deg);
+  }
+}
+
+.image-download-progress-container span {
+  font-weight: 500;
+  color: #fff;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 940px) {
+  .image-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 740px) {
+  .image-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image-container h2 {
+    font-size: 18px;
+  }
+
+  .error-container {
+    width: 90%;
+    margin: 42px auto 0 auto;
+  }
+
+  .error-container span {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .error-container span i {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+  .image-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
