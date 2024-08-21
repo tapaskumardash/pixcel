@@ -27,6 +27,10 @@ In a digital age, having access to high-quality visuals is crucial. Pixcel was c
 
 We are dedicated to making Pixcel better day by day. Our team is constantly working on adding new features, improving existing ones, and ensuring the platform evolves with the needs of its users. Stay tuned for exciting updates, and feel free to suggest features or improvements that you'd like to see!
 
+## 🌐 Live Demo
+
+Check out the live demo of Pixcel hosted at: [https://pixcel-stock.netlify.app/](https://pixcel-stock.netlify.app/)
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
