@@ -59,7 +59,7 @@ const Home = (props) => {
       <Banner />
       <HomeHeader setQuery={props.setSearchQuery} company={props.company} />
 
-      <div className="container">
+      <div className="home-container">
         <div id="search-container" className="search-container">
           <SearchBox setQuery={props.setSearchQuery} />
         </div>
@@ -83,7 +83,6 @@ const Home = (props) => {
               })
             }
           </div>
-          
           <div ref={downloadProgressMsgContainer} className="image-download-progress-container">
             <i className='bx bx-loader-alt'></i>
             <span>Downloading image....</span>

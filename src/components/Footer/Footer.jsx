@@ -12,7 +12,7 @@ const Footer = (props) => {
         <a href="https://github.com/tapaskumardash/pixcel"><i className='bx bxl-github'></i></a>
       </div>
       <div className="copyright-container">
-        <span>Copyright © Pixcel {new Date().getFullYear()} • Developed by <a href="/">Tapas</a></span>
+        <span>Copyright © Pixcel {new Date().getFullYear()} • Developed by <a href="https://tapaskumardash.xyz/">Tapas</a></span>
       </div>
     </footer>
   )

@@ -73,6 +73,6 @@
 @media (max-width: 350px){
   .login-card{
     min-width: auto;
-    width: 90%;
+    width: 80%;
   }
 }
